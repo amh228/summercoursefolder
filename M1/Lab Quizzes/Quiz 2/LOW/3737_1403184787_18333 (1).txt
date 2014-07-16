@@ -1,0 +1,20 @@
+#include
+#include
+
+voig eqe();
+float main(){
+
+double a,b,c
+
+printf("please enter dimension of box");
+printf("ples enter base , height , width);
+scanf("%f%f" ,&a,&b,&c);
+}
+
+Volume = base x height x width 3;
+
+
+
+	printResult();
+	system("pause")
+	return 0;

@@ -1,0 +1,39 @@
+#include
+#include
+
+double readNumber();
+double calculate(double, double, double);
+void printResult(double);
+
+double main()
+{
+	int b, w, h;
+	b = readNumber();
+	w = readNumber();
+	h = readNumber();
+
+	system("pause");
+	return 0;
+}
+
+double readNumber()
+{
+	double b ,w, h;
+	double result;
+
+	printf("Please enter the base, height, and width\n");
+		scanf("%lf %lf %lf", &b, &w, &h);
+
+		result = calculate(b, w, h);
+		printResult (result);
+}
+double calculate(double a, double b, double  c)
+{
+	return a*b*c;
+}
+
+void printResult(double volume)
+{
+	printf("\nYour volume is: %lf\n", volume);
+	return;
+}
