@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main ()
+{
+
+	int a[10];
+	int*pwalk;
+	int*pend=a+9;
+	int nb;
+	
+	for(pwalk=a;pwalk<=pend;pwalk++)
+	{
+		printf("Enter a number");
+		scanf("%d",&nb);
+	}
+	for(pwalk=a;pwalk<=pend;pwalk++)
+		{if(*pwalk<20)
+			printf("%d",*pwalk);
+
+	}
+
+
+system("pause");
+return 0;
+}
