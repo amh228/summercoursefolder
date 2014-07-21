@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main (void)
+
+{ 
+int limit=100,i;
+printf("please inter this limit:");
+scanf("%d",&limit);
+
+for(i=20; i<=limit; i++)
+{if (i%2==1)
+printf("%d",i);
+}
+
+System("pause");
+return 0 ; 
+} 

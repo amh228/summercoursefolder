@@ -1,0 +1,31 @@
+#include
+#include
+
+float calculate (float, float, float);
+void printResult (float);
+
+int main (void){
+	float base, height, width;
+	float result;
+
+	printf("please enter the dimensions\n");
+	scanf("%f%f%f",&base, &height, &width);
+	
+	result = calculate (base,height,width);
+
+	printResult (result);
+
+	system("pause");
+
+	return 0;
+
+}
+
+float calculate (float a, float b, float c){
+	return a*b*c;
+}
+
+void printResult (float volume){
+	printf("The result of the volume is %f", volume);
+	return;
+}
